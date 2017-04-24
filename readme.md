@@ -1,14 +1,14 @@
-#PHP - Les conditions
-##Exercice 1
+# PHP - Les conditions
+## Exercice 1
 Créer une variable **age** et l'initialiser avec une valeur.  
 Si l'age est supérieur ou égale à 18, afficher **Vous êtes majeur**. Dans le cas contraire, afficher **Vous êtes mineur**.
 
-##Exercice 2
+## Exercice 2
 Créer une variable **IsEasy** de type booléan et l'initialiser avec une valeur.  
 Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'est difficile !!!**.  
 **Bonus :** L'écrire de deux manières différentes.
 
-##Exercice 3
+## Exercice 3
 Créer deux variables **age** et **genre**. La variable **genre** peut prendre comme valeur :
 - Homme
 - Femme  
@@ -21,7 +21,7 @@ En fonction de l'âge et du genre afficher la phrase correspondante :
 
 Gérer tous les cas.
 
-##Exercice 4
+## Exercice 4
 L'échelle de Richter est un outil de mesure qui permet de définir la magnitude de moment d'un tremblement de terre. Cette échelle va de 1 à 9.  
 Créer une variable **magnitude**. Selon la valeur de **magnitude**, afficher la phrase correspondante.  
 
@@ -40,7 +40,7 @@ Magnitude   |   Phrase
 Gérer tous les cas.  
 *Utilser autre chose que des if else*
 
-##Exercice 5
+## Exercice 5
 Traduire ce code avec des if et des else :  
 
 
@@ -48,21 +48,21 @@ Traduire ce code avec des if et des else :
       echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
     ?>
 
-##Exercice 6
+## Exercice 6
 Traduire ce code avec des if et des else :  
 
 
     <?php
       echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
     ?>
-##Exercice 7
+## Exercice 7
 Traduire ce code avec des if et des else :  
 
 
     <?php
       echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
     ?>
-##Exercice 8
+## Exercice 8
 Traduire ce code avec des if et des else :  
 
 
