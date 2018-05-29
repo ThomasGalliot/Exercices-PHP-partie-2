@@ -4,12 +4,12 @@ Créer une variable **age** et l'initialiser avec une valeur.
 Si l'age est supérieur ou égale à 18, afficher **Vous êtes majeur**. Dans le cas contraire, afficher **Vous êtes mineur**.
 
 ## Exercice 2
-Créer une variable **IsEasy** de type booléan et l'initialiser avec une valeur.  
+Créer une variable **isEasy** de type booléan et l'initialiser avec une valeur.  
 Afficher **C'est facile!!** si c'est vrai. Dans le cas contraire afficher **C'est difficile !!!**.  
 **Bonus :** L'écrire de deux manières différentes.
 
 ## Exercice 3
-Créer deux variables **age** et **genre**. La variable **genre** peut prendre comme valeur :
+Créer deux variables **age** et **gender**. La variable **gender** peut prendre comme valeur :
 - Homme
 - Femme  
 
@@ -45,7 +45,7 @@ Traduire ce code avec des if et des else :
 
 
     <?php
-      echo ($maVariable != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
+      echo ($gender != 'Homme') ? 'C\'est une développeuse !!!' : 'C\'est un développeur !!!';
     ?>
 
 ## Exercice 6
@@ -53,19 +53,19 @@ Traduire ce code avec des if et des else :
 
 
     <?php
-      echo ($monAge >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
+      echo ($age >= 18) ? 'Tu es majeur' : 'Tu n\'es pas majeur';
     ?>
 ## Exercice 7
 Traduire ce code avec des if et des else :  
 
 
     <?php
-      echo ($maVariable == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
+      echo ($isOk == false) ? 'c\'est pas bon !!!' : 'c\'est ok !!';
     ?>
 ## Exercice 8
 Traduire ce code avec des if et des else :  
 
 
     <?php
-      echo ($maVariable) ? 'c'est ok !!' : 'c'est pas bon !!!';
+      echo ($isOk) ? 'c'est ok !!' : 'c'est pas bon !!!';
     ?>
